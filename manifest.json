@@ -1,0 +1,6 @@
+{
+  "name": "JavaScript Oddity",
+  "description": "Learn peculiarities of JavaScript like type conversions and comparisons by answering a simple question each time a new tab is opened!",
+  "version": "1.0",
+  "manifest_version": 3
+}
