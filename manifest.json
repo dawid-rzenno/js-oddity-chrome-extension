@@ -1,0 +1,7 @@
+{
+  "name": "JavaScript Oddity",
+  "description": "Learn peculiarities of JavaScript such as type conversions and comparisons by answering a simple question each time a new tab is opened!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "chrome_url_overrides": { "newtab": "new-tab.html" }
+}
