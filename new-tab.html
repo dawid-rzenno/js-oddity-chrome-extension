@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New Tab</title>
+    <title>New Tab | JS Oddity</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Question - <span id="question"></span></h1>
+    <div class="container">
+        <h1>JS Oddity 1.0</h1>
+        <p>Answer the following question! :)</p>
 
-    <label for="answer">Answer</label>
-    <input id="answer"/>
-    <button type="submit" id="submit">Submit</button>
+        <h1><span id="question"></span> → <span id="answer"></span></h1>
 
-    <script src="index.js"></script>
+        <ul class="optionList">
+            <li>
+                <label for="stringAnswer"></label> <input type="text" placeholder="String" id="stringAnswer"/>
+                <button type="button" id="stringAnswerSubmitButton">Submit as string</button>
+            </li>
+            <li>
+                <label for="numberAnswer"></label> <input type="number" placeholder="Number" id="numberAnswer"/>
+                <button type="button" id="numberAnswerSubmitButton">Submit as number</button>
+            </li>
+            <li>
+                <button type="button" id="trueAnswer">True</button>
+                <button type="button" id="falseAnswer">False</button> <br>
+            </li>
+            <li>
+                <button type="button" id="nanAnswer">NaN</button>
+                <button type="button" id="undefinedAnswer">Undefined</button>
+                <button type="button" id="nullAnswer">Null</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
 </body>
 </html>
